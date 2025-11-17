@@ -32,10 +32,10 @@ class Film extends Media {
 
 void main() {
   List<Media> catalogue = [
-    Livre('1984', 'George Orwell'),
-    Film('Inception', 148),
+    Livre('1999', 'Enfant Noir'),
+    Film('Inception', 178),
     Livre('Le Petit Prince', 'Antoine de Saint-Exupéry'),
-    Film('Titanic', 195),
+    Film('Titanic', 285),
   ];
 
   for (var item in catalogue) {
