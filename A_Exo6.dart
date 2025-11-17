@@ -6,24 +6,24 @@ abstract class Connectable {
 class ServeurAPI implements Connectable {
   @override
   void connecter(String utilisateur) {
-    print('ServeurAPI : Connexion établie pour $utilisateur.');
+    print('ServeurAPI : La Connexion établie pour $utilisateur.');
   }
 
   @override
   void deconnecter() {
-    print('ServeurAPI : Déconnexion réussie.');
+    print('ServeurAPI : La déconnexion réussie.');
   }
 }
 
 class BaseDeDonnees implements Connectable {
   @override
   void connecter(String utilisateur) {
-    print('BaseDeDonnees : Connexion pour $utilisateur.');
+    print('BaseDeDonnees : La Connexion pour $utilisateur.');
   }
 
   @override
   void deconnecter() {
-    print('BaseDeDonnees : Déconnexion terminée.');
+    print('BaseDeDonnees : La déconnexion terminée.');
   }
 }
 
@@ -34,7 +34,7 @@ void main() {
   List<Connectable> services = [s1, s2];
 
   for (var service in services) {
-    service.connecter('Oumar');
+    service.connecter('Oumar Balde');
     service.deconnecter();
   }
 }

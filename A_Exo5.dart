@@ -29,8 +29,8 @@ void main() {
   var f2 = Rectangle(7, 2);
 
   f1.afficherMessage();
-  print('Aire du cercle : ${f1.calculerAire()}');
+  print('Voici aire du cercle : ${f1.calculerAire()}');
 
   f2.afficherMessage();
-  print('Aire du rectangle : ${f2.calculerAire()}');
+  print('Voici aire du rectangle : ${f2.calculerAire()}');
 }
