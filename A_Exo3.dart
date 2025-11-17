@@ -14,7 +14,7 @@ class Compte {
 }
 
 void main() {
-  var monCompte = Compte('123ABC');
-  monCompte.depot(150.0);
+  var monCompte = Compte('Numero_compte: 647675');
+  monCompte.depot(8500.0);
   print('Solde : ${monCompte.solde}');
 }
