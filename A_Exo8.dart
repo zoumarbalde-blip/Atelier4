@@ -14,7 +14,7 @@ class Livre {
   int get pages => _pages;
 
   static void afficherTotalLivres() {
-    print('Total de livres créés : $totalLivres');
+    print('Voici le total de livres je pu créés : $totalLivres');
   }
 }
 
@@ -24,14 +24,14 @@ class Roman extends Livre {
   Roman(String titre, String auteur, this.genre) : super(titre, auteur);
 
   void afficherGenre() {
-    print('Genre : $genre');
+    print('le genre : $genre');
   }
 }
 
 void main() {
-  var l1 = Livre('L\'Étranger', 'Albert Camus');
+  var l1 = Livre('L\'L’Aventure ambiguë', 'Cheikh Hamidou Kane');
   var r1 = Roman('Sherlock Holmes', 'Arthur Conan Doyle', 'Policier');
-  var r2 = Roman('Harry Potter', 'J.K. Rowling', 'Fantastique');
+  var r2 = Roman('Contes d’Amadou Koumba', 'Birago Diop', 'Contes traditionnels africains');
 
   l1.afficherInfos();
   r1.afficherInfos();

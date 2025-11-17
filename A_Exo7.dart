@@ -12,5 +12,5 @@ void main() {
   var t2 = Tache('Je réviser Dart pour mon QCM');
   var t3 = Tache('envoyer le devoir de developpement application');
 
-  print('Nombre total de tâches : ${Tache.nombreTotal}');
+  print('Nombre total de tâches  effectuer: ${Tache.nombreTotal}');
 }
